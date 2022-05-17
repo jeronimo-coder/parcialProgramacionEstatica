@@ -346,6 +346,8 @@ form.search input.button {
   padding: 0;
   background: #fff url(footerbg.gif) repeat-x;
   height: 60px;
+  /* display: flex;
+  justify-content: center; */
 }
 #footer a {
   text-decoration: none;
@@ -353,19 +355,19 @@ form.search input.button {
 }
 #footer-content {
   margin: 0 auto;
-  width: 800px;
+  width: 1100px;
 }
 #footer-content #footer-left {
   padding: 10px;
   width: 60%;
-
-  text-align: left;
+  float: left;
+  text-align: center;
 }
 #footer-content #footer-right {
   padding: 10px;
   width: 33%;
   float: right;
-  text-align: right;
+  text-align: center;
 }
 
 /* alignment classes */
